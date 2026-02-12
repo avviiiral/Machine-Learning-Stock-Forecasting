@@ -121,8 +121,8 @@ It is not financial advice. Always do your own research before investing.
 ## Author
 
 **Aviral Goyal** 
-LinkedIn: https://www.linkedin.com/in/avviiiral/
-GitHub: https://github.com/avviiiral  
+- LinkedIn: https://www.linkedin.com/in/avviiiral/    
+- GitHub: https://github.com/avviiiral  
 
 ---
 
