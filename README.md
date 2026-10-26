@@ -1,11 +1,12 @@
-# 📈 Machine Learning Stock Forecasting
+# Machine Learning Stock Forecasting
 
-A machine learning project for forecasting stock prices using historical market data.  
-This repository includes model training, evaluation, and a web-based interface for predictions.
+A Python time-series forecasting project using historical stock-price data, a trained TensorFlow/Keras model, and a web interface for exploring predictions.
+
+**Core technologies:** Python · TensorFlow · Keras · Pandas · NumPy · Matplotlib · Streamlit/Flask (depending on the current app implementation).
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This project uses historical stock price data to train a machine learning model that predicts future stock prices.
 
@@ -19,7 +20,7 @@ The workflow includes:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 ├── Model.ipynb # Jupyter notebook for training & evaluation
@@ -31,35 +32,24 @@ The workflow includes:
 
 ---
 
-## 📊 Model Performance
+## Model Evaluation
 
-The model performance is evaluated using:
-
-- **RMSE (Root Mean Squared Error)**
-
-Example:
-```
-RMSE = 36.08
-```
-
-RMSE represents the average prediction error in the same unit as the stock price.
-
-Lower RMSE indicates better model accuracy.
+The README currently records an example RMSE of `36.08`. RMSE is expressed in the same units as the target price and is only meaningful when the evaluation period, target scaling, and baseline are specified. Re-run evaluation on a held-out chronological test set before using this number as a performance claim.
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 
 - Python
 - TensorFlow / Keras
 - NumPy
 - Pandas
 - Matplotlib
-- Streamlit / Flask (depending on your app)
+- Streamlit or Flask (verify the current `app.py` entry point before running)
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1️⃣ Clone the Repository
 
@@ -85,7 +75,7 @@ The application will open in your browser.
 
 ---
 
-### 📈 How It Works
+### How It Works
 
 - Historical stock data is loaded.
 
@@ -99,7 +89,7 @@ The application will open in your browser.
 
 ---
 
-### 🔮 Future Improvements
+### Potential Improvements
 
 - Add multiple model comparison (LSTM, GRU, ARIMA)
 
@@ -129,3 +119,8 @@ It is not financial advice. Always do your own research before investing.
 ## License
 
 This is an open-source project. You are free to use and modify it.
+
+
+## Project Keywords
+
+`machine-learning` `time-series-forecasting` `tensorflow` `keras` `python` `stock-market-data` `model-evaluation` `streamlit`
